@@ -204,10 +204,7 @@ footer {
     text-align: center;
 }
 
-.footer ul {
-    padding-inline-start: 1rem;
-    display: inline;
-}
+
 
 /** projects **/
 .showcase-list {
@@ -232,8 +229,6 @@ footer {
         margin: 0px;
         padding: 0px 0.8rem;
     }
-    .link{
-        margin: 0.5rem;
-    }
+    
     
 }
