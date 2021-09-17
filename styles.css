@@ -69,14 +69,25 @@ hr {
 
 /** lists **/
 
+.no-bullets .ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
 .list-non-bullet {
     list-style: none;
     padding-inline-start: 0px;
+    
 }
 
 .list-item-inline {
     display: inline;
-    padding: 0rem 0.5rem;
+    
 }
 
 /** navigation **/
@@ -99,7 +110,7 @@ hr {
 }
 
 .navigation .nav-pills {
-    text-align: right;
+    text-align: none;
 }
 
 .navigation .link {
@@ -191,6 +202,12 @@ footer {
     text-align: center;
 }
 
+.footer-header {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
 .footer ul {
     padding-inline-start: 0px;
     display: inline;
@@ -205,6 +222,7 @@ footer {
 .showcase-blog {
     padding-bottom: 6rem;
 }
+
 .footer .ul .li {
     display: inline;
 }
