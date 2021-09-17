@@ -23,7 +23,7 @@ hr {
 
 /** container **/
 .container {
-    padding: 0rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .container-center {
@@ -33,16 +33,26 @@ hr {
 
 /** links **/
 .link {
+    margin: 2rem 1rem;
+    text-decoration: none;
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    font-weight: bold;
+    color: rgb(0, 6, 10);
+    text-align: center;
+}
+
+#high {
+    color: var(--primary-col);
+    font-weight: bold;
+    font-size: 35px;
 }
 
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
-    display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
 }
@@ -51,7 +61,6 @@ hr {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
-    display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
 }
@@ -75,10 +84,16 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    padding: 2rem 0.5rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: auto;
+    height: 70%;
 }
 
+.content {
+    font-size: 20px;
+}
 .navigation .nav-brand {
     font-weight: bold;
 }
@@ -98,8 +113,19 @@ hr {
 /** header **/
 
 .hero {
-    padding: 2rem;
-    padding-top: 5rem;
+    margin: 8rem 2rem;
+    padding: 4rem 1rem;
+}
+
+h1 {
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 
 }
 
@@ -137,13 +163,23 @@ hr {
 
 /** footers **/
 
-.footer {
+footer {
     background-color: var(--primary-color);
-    padding: 4rem 1rem;
-    text-align: center;
     color: white;
-    border-top-right-radius: 1rem;
+    padding: 2rem 0.5rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: auto;
+    height: 70%;
+    text-align: center;
 }
+
+
+
+.container-center {
+    text-align: center;
+}
+
 
 .footer .link {
     color: white
@@ -151,11 +187,13 @@ hr {
 
 .footer .footer-header {
     font-weight: bold;
-    font-size: large;
+    font-size: 25px;
+    text-align: center;
 }
 
 .footer ul {
     padding-inline-start: 0px;
+    display: inline;
 }
 
 /** projects **/
@@ -166,4 +204,24 @@ hr {
 /** blogs **/
 .showcase-blog {
     padding-bottom: 6rem;
+}
+.footer .ul .li {
+    display: inline;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+@media(max-width:600px) {
+
+    .link-icon{
+        font-size: 10px;
+    }
+    .con-cen{
+        margin: 0px;
+        padding: 0px 0.8rem;
+    }
+    .link{
+        margin: 0.5rem;
+    }
 }
