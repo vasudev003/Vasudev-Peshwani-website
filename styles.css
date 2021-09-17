@@ -194,18 +194,18 @@ footer {
 
 .footer .footer-header {
     font-weight: bold;
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
 }
 
 .footer-header {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
 }
 
 .footer ul {
-    padding-inline-start: 2rem;
+    padding-inline-start: 0rem;
     display: inline;
 }
 
@@ -231,6 +231,9 @@ footer {
     .con-cen{
         margin: 0px;
         padding: 0px 0.8rem;
+    }
+    .link{
+        margin: 0.5rem;
     }
     
 }
