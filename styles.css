@@ -23,11 +23,11 @@ hr {
 
 /** container **/
 .container {
-    padding: 0.5rem 1rem;
+    padding: 2rem 1rem;
 }
 
 .container-center {
-    max-width: 300px;
+    max-width: 600px;
     margin: auto;
     text-align: center;
 }
