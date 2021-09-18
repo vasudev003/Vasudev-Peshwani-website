@@ -220,7 +220,15 @@ footer {
 
 @media(min-width:600px) {
 
-   
+    .icon{
+        font-size: 3px;
+    }
+    .container-center{
+        margin: 0px;
+        padding: 0px 0.8rem;
+    }
+    .link{
+        margin: 0.5rem;
     }
     
     
