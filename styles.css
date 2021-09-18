@@ -8,7 +8,9 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px
+    padding: 0px;
+    margin: 0px;
+   
 }
 
 hr {
@@ -28,7 +30,7 @@ hr {
 
 .container-center {
     
-    margin: auto;
+    
     text-align: center;
 }
 #high {
@@ -38,8 +40,8 @@ hr {
 }
 /** links **/
 .link {
-    
-    
+    margin: 2rem 1rem;
+    font-weight: bold;
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -51,6 +53,9 @@ hr {
     color: white;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
+}
+.link .link-primary {
+    display: inline;
 }
 
 .link-secondary {
@@ -65,7 +70,7 @@ hr {
 
 /** lists **/
 
-.no-bullets .ul {
+.list-non-bullet .ul {
     display: block;
     list-style-type: disc;
     margin-block-start: 1em;
@@ -215,12 +220,15 @@ footer {
 
 @media(max-width:600px) {
 
-    .link-icon{
+    .icon{
         font-size: 10px;
     }
     .con-cen{
         margin: 0px;
         padding: 0px 0.8rem;
+    }
+    .link{
+        margin: 00.5rem;
     }
     
     
