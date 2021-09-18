@@ -218,17 +218,9 @@ footer {
     display: inline;
 }
 
-@media(max-width:600px) {
+@media(min-width:600px) {
 
-    .icon{
-        font-size: 10px;
-    }
-    .con-cen{
-        margin: 0px;
-        padding: 0px 0.8rem;
-    }
-    .link{
-        margin: 00.5rem;
+   
     }
     
     
