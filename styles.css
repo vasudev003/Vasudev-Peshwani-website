@@ -220,7 +220,7 @@ footer {
 
 
 
-@media (max-width:600px) {
+@media only screen and(max-width:600px) {
 .link{
     padding: 2px;
     margin: auto;
