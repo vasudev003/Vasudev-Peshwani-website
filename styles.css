@@ -27,12 +27,12 @@ hr {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
     text-align: center;
 }
 #high {
-    color: var(--primary-col);
+    color: var(--primary-color);
     font-weight: bold;
     font-size: 35px;
 }
